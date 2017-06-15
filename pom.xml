@@ -682,9 +682,8 @@ because we want to be to able to execute mvn sonar:sonar without passing a profi
     </build>
 </profile>
     <profile>
-      <id>run-its</id>
       <properties>
-        <findbug.debug>false</findbug.debug>
+        <findbug.debug>true</findbug.debug>
       </properties>
       <build>
         <plugins>
