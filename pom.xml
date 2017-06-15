@@ -684,6 +684,7 @@ because we want to be to able to execute mvn sonar:sonar without passing a profi
     <profile>
       <properties>
         <findbug.debug>true</findbug.debug>
+        <sonar.sourceEncoding>UTF-8</sonar.sourceEncoding>
       </properties>
       <build>
         <plugins>
